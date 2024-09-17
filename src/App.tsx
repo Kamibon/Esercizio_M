@@ -7,27 +7,14 @@ import MyMenu from './components/menu';
 import Dashboard from './components/dashboard';
 import Users from './components/users';
 
-
-
-
 function App() {
 
 
   const [section, setSection] = useState<"Dashboard"|"Utenti">('Dashboard')
  
- 
-
-  
-
- 
-
- 
  const swapSection = (sectionName: "Dashboard"|"Utenti")=>{
        setSection(sectionName)
  }
-
- 
-
 
   return (
     <div className="App">
